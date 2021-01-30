@@ -55,3 +55,13 @@ function hendleFirstTicket(quentity, id){
     const grandTotal= totalCost+vat ;
     $("grandTotal").innerText="$"+grandTotal;
 }
+
+
+$("booking").addEventListener("click", function(){
+
+
+    $("main").style.display="none";
+
+    $("checkoutPage").style.display="block";
+
+})

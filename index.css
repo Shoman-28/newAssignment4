@@ -12,6 +12,7 @@ body{
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
+    height: 100vh;
 }
 
 nav{
@@ -124,8 +125,27 @@ nav ul li a:hover, a.active{
     color: #fff;
     font-weight: 500;
     background-color:  #3352F2;
+    cursor: pointer;
 }
 .amount{
     display: flex;
     justify-content: space-between;
+}
+.next-page-contant{
+
+    padding: 20px 20px ;
+  
+    background-color: rgba(225, 255, 255, 0.756);
+    border: 10px ;
+   
+}
+
+#checkoutPage{
+    display: none;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
 }
